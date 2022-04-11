@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box; /* paddings */
+}
+body{
+    
+    background-color: red;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: blue
+    
+    
+}
+
+.card{
+    
+    top: 50px;
+    left: 40px;
+    margin: 0 auto;
+    
+    height: 300px;
+    width: 250px;
+    
+    border-radius: 3%;
+    background: linear-gradient(45deg, #ff0000, #ff7300);
+    
+}
+
+.card__top{
+    position: relative;
+    display: flex;
+}
+h1{
+    color: white;
+}
+
+
+.price{
+    position: absolute;
+     color: white;
+     right: 0;
+     margin: 8px 0 0 0;
+}
+
+.text{
+    color: white;
+    padding: 3%;
+}
+
+button{
+ border: 2px solid blue;
+ border-radius: 35%;
+  background-color:0;
+  color: blue;
+  padding: 10px 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer{
+    padding: 0 0 0 0 ;
+    position: absolute;
+   
+    width: 10cm;
+}
+
+h4{
+    color: gray;
+}
+
+
+
+.air{
+    font-size: 200px;
+    opacity: 50%;
+    color:white;
+    margin-top: 0cm;
+    border: 0cm;
+    margin-bottom: 0;
+    overflow: hidden;
+}
