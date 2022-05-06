@@ -1,0 +1,14 @@
+.simples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.simples__header {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=simples.css.map */

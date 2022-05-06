@@ -1,0 +1,30 @@
+
+footer{
+margin: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+  &__subscrive{
+      
+      margin-left: 20px;
+      display: inline-flex;
+      flex-direction: column;
+    
+  }
+  &__products{
+   
+    display: inline-flex;
+    flex-direction: column;
+      
+  }
+   &__resources{
+    display: inline-flex;
+    flex-direction: column;
+      
+   }
+    &__footer__logo{
+        display: inline-flex;
+        margin-right: 20px;
+    }
+}

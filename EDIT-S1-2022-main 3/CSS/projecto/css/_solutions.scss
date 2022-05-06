@@ -1,0 +1,96 @@
+@import  'colors';
+@import 'media-queries';
+
+
+.solutions{
+
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $grey;
+
+
+
+    &__columns{
+        
+      display: flex;
+      
+      gap:40px;
+      flex-wrap: wrap;
+      width: 50%;
+    
+    }   
+
+    &__title{
+        font-weight: 400;
+        font-size: 40px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    &__text{
+        
+        padding: 20px ;
+
+    }
+    &__column{
+        &:hover{
+            background-color: $blue;
+
+            .solutions__column--circle {
+                background-color: white;
+            }
+                .solutions__column--text{
+                    color: white;
+                }
+                .solutions__column--title{
+                    color: white;
+                }
+               
+            
+        }
+        background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 150px;
+        width: clamp(180px, 100%, 200px);
+        position: relative;
+        
+        border:  solid $grey;
+        
+
+        
+        &--circle{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            border-radius: 100%;
+                height: 50px;
+                width: 50px;
+                background-color: $blue;
+                 
+                
+                
+            }
+            &--title{
+                
+               margin-top: 10px;
+            }
+
+            &--text{
+             margin-left: 15px;
+                margin-top: 10px;
+            }
+            
+        }
+    }
+
+@media screen  and (max-width:768px){
+    
+}
+    
+   
+
+    

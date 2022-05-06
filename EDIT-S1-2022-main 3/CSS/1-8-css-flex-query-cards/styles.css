@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,500&display=swap');
+
+html, body {  
+    font-family: 'Open Sans', sans-serif;  
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    
+       
+    
+}
+
+.card{
+    
+   
+        
+    position: relative;
+    
+    height: 400px;
+    width: 318px;
+    background-color: #BCD1FF;
+    border-radius: 10px;
+}
+
+.card__header{
+    position: absolute;
+    
+}
+
+
+.footer-img{
+    
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    
+}
+
+.header-img{
+  
+  margin-left: 90px;
+  margin-top: 10px;
+  
+}
+
+.container{
+    margin-top: 150px;
+    width: 318px;
+    height: 250px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.container__header{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+    font-size: 10px;
+    color: rgb(113, 111, 111);
+    padding: 10px  10px 0px 10px;
+}
+
+
+.container__body{
+    
+   padding: 10px;
+}
+
+.container-title{
+    
+    margin-bottom: -20px;
+}
+
+
+
+.btn{
+ margin-left: 50px;
+}
+
+.container__footer{
+    color: rgb(0, 157, 255);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    
+  }
+
+/* media query a utilizar em mobile */
+/* para screen, entre 0 e o maximo width de 768px*/
+ 
